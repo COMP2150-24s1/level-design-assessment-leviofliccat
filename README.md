@@ -5,6 +5,37 @@
 
 This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
+
+
+ break platforms, 
+pull them down to avoid an obstacle, 
+a key that runs away from you/taunts you and leads you somewhere, 
+hidden caves, 
+timing jumps, 
+falling platforms, 
+falling objects (drama like in mario party minigame intros)
+initially a door you cant pass, then once you go through the section you hit a switch to open it and return to the start area
+
+playtesting? nathan, seb, todd? kelly?
+attention is better without peripheral distractions
+
+discovery - scaffolding new concepts
+challenge - presenting goals and obstacles
+drama - controlling the pacing
+exploration - inviting and rewarding curiosity
+fantasy - building a world, unfolding a narrative
+
+build the middle part of the game first before the intro levels to facilitate/scaffold the path into the middle of the game
+
+design encounters first
+
+option to avoid enemy encounters - non-linear space
+
+optional side space/rewrd that gets blocked off with progression, like the barrier wall moves to then block the extra room instead
+
+
+
+
 Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
 
 ```
