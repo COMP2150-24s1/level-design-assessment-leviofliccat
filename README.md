@@ -6,33 +6,11 @@
 This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
 
-
- break platforms, 
-pull them down to avoid an obstacle, 
-a key that runs away from you/taunts you and leads you somewhere, 
-hidden caves, 
-timing jumps, 
-falling platforms, 
-falling objects (drama like in mario party minigame intros)
-initially a door you cant pass, then once you go through the section you hit a switch to open it and return to the start area
-
-playtesting? nathan, seb, todd? kelly?
-attention is better without peripheral distractions
-
 discovery - scaffolding new concepts
 challenge - presenting goals and obstacles
 drama - controlling the pacing
 exploration - inviting and rewarding curiosity
 fantasy - building a world, unfolding a narrative
-
-build the middle part of the game first before the intro levels to facilitate/scaffold the path into the middle of the game
-
-design encounters first
-
-option to avoid enemy encounters - non-linear space
-
-optional side space/rewrd that gets blocked off with progression, like the barrier wall moves to then block the extra room instead
-
 
 
 
@@ -107,6 +85,12 @@ No additional words are necessary for this section (any words should only be wit
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+
+
+e.g. greyboxing the basic geometry of the level; discovered the jump height is very high so adjusted the beginning encounter/s to achieve the desired effet (e.g. cant skip sections or backtracking whatever)
+-	The acid pit in section 2 – found that it wasn’t necessary to achieve its original purpose anyu more? Removed to improve visual clutter/?
+
+
 
 ## Generative AI Use Acknowledgement
 
