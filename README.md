@@ -87,9 +87,10 @@ Reflect on how iterative design helped to improve your level. Additional prototy
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
 
-e.g. greyboxing the basic geometry of the level; discovered the jump height is very high so adjusted the beginning encounter/s to achieve the desired effet (e.g. cant skip sections or backtracking whatever)
--	The acid pit in section 2 – found that it wasn’t necessary to achieve its original purpose anyu more? Removed to improve visual clutter/?
+e.g. greyboxing the basic geometry of the level; discovered the jump height is very high (6 units) so adjusted the beginning encounter/s to achieve the desired effet (e.g. cant skip sections or backtracking whatever)
 - the chomper encounter in section 1 was initially too spaced out - wasn't obvious that the switch was connected to the platform. now the goal and target are on the same screen for clarity.
+- section 2 layout was changed after in-engine testing - need to see the box drop mechanism and the end goal before completing the shooting puzzle. but then the acid made it so that if they failed the box timing, they would get softlocked. so added a little platform to catch the block and help the player push it across the acid... was gonna put a wait at the end of the platform movement but decided against it to add challenge. add more challenge by making them figure out how to start the platform moving
+- early playtesting by brother - identified some issues - can still softlock by pushing block into acid. not clear enough visually where the block should go
 
 
 
