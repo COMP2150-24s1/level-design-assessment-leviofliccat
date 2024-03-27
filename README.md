@@ -89,6 +89,7 @@ You should conclude by highlighting a specific example of an encounter, or anoth
 
 e.g. greyboxing the basic geometry of the level; discovered the jump height is very high so adjusted the beginning encounter/s to achieve the desired effet (e.g. cant skip sections or backtracking whatever)
 -	The acid pit in section 2 – found that it wasn’t necessary to achieve its original purpose anyu more? Removed to improve visual clutter/?
+- the chomper encounter in section 1 was initially too spaced out - wasn't obvious that the switch was connected to the platform. now the goal and target are on the same screen for clarity.
 
 
 
