@@ -104,24 +104,26 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 You should restructure the headings below to match the order they appear in your level.
 
 ### 2.8. Spikes
-
+Three pits of spikes are sequenced in increasing size, requiring the player to adjust the magnitude of their jumps, teaching them both the jump mechanic and the spike damage/knockback mechanic if they fail. Starts easy then increases pressure to scaffold mastery.
 ### 2.2. Checkpoints
-
+The first checkpoint is placed after the first source of damage (spikes) and before the next (chomper), in a safe area enclosed by a door and column. Generally placed to mark each area/encounter.
 ### 2.11. Weapon Pickup (Staff)
-
+The staff pickup is directly followed by columns blocking the path forward, facilitating discovery of the 'attack to break column' mechanic. 
 ### 2.4. Health Pickups
-
+Health pickups are placed after potential damage encounters (more frequently in section 1) to reduce stress of dying.
 ### 2.3. Chompers
-
-### 2.9. Spitters
-
-### 2.6. Moving Platforms and 2.1. Acid
-
+The chomper is placed behind a column so when the player approaches, it gets angry but can't reach them. When the player attacks the column, they also hit the chomper, teaching them that enemies have 1 hit point.
+### 2.10. Weapon Pickup (Gun) and Spitters
+One spitter is placed in a tunnel, unreachable by the melee attack, teaching the player to combine crouch and shoot.
+Two spitters are placed on raised terrain to demonstrate how they can spit through walls, and additionally allows the player to combine jump and shoot.
+### 2.6. Moving Platforms and Acid
+Moving platforms provide a safe path over the acid if the player can time their jumps correctly, requiring a low level of skill and accuracy which is developed upon in later sections.
 ### 2.5. Keys
-
+The key is the last objective achieved in each section, indicating the end of the section.
 ### 2.7. Passthrough Platforms
+The player must learn to pass through certain platforms in order to progress and complete the section. Ideally facilitated by the platforms' visual difference to terrain.
 
-### 2.10. Weapon Pickup (Gun)
+
 
 
 
