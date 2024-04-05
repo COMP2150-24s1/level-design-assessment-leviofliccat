@@ -20,84 +20,51 @@ Example:
 ![This is the alt text for an image!](DocImages/exampleimage.png)
 
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
-
-
-
-discovery - scaffolding new concepts
-challenge - presenting goals and obstacles
-drama - controlling the pacing
-exploration - inviting and rewarding curiosity
-
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
-- The level should facilitate the player’s discovery of mechanics and dynamics without written instruction. Mechanics should be introduced safely and individually in section 1, before the player must use them under pressure and in combination (to learn new dynamics) in later sections. You can assume the player already knows the controls.
+My level design scaffolds discovery of the key concepts and verbs I wanted to highlight - 'push' boxes and 'open' doors/bridges - through effective use of space to indirectly guide the player, and through teaching simple solutions then problematising them.
 
---
-My level design scaffolds discovery of the key concepts and verbs I wanted to highlight - 'push' boxes and 'open' doors/bridges. These two verbs are used in different ways throughout the level, each encounter developing on previous interpretations of the verb.
+The main verbs are introduced in section 1. The encounter space was designed such that the player must ‘push’ the box forward to progress (cannot jump over), teaching them the activate button -> open bridge mechanic. 
+Section 3 is the cumulation of sequential switch activations to 'open' and 'close' multiple doors as well as a multi-staged box 'push'. The arrangement of encounters in that part of the level creates a memorable space, with the “next” objective/door visible on the player’s screen. The more challenging scenario using previously-taught verbs forces discovery and mastery of switch mechanics, and facilitates the development of problem solving dynamics.
+Originally, the plan was to use bridges instead of doors, as I believe the toggle state doors conflict with the idea that "doors will close if the button isn't held down", but mechanics limitations changed this.
 
-The box push to open bridges is introduced in section 1. The encounter was designed such that the player must push the box forward to progress (rather than jump over), which shows them the activate button -> open bridge mechanic. They then also jump on the box to reach the next area.
-Section 2 encourages the player to combine movement verbs and 'push' to get the box from one area to the next (which requires the box to jump on). The gun encounter allows the discovery that shooting a switch can activate bridges.
-Section 3 is the cumulation of sequential switch activations to 'open' and 'close' multiple doors as well as multi-staged box 'push'. Originally the plan was to use toggle bridges instead of toggle doors, as I believe the toggle state doors conflict with the idea that "doors will close if the button isn't held down", but mechanics limited this.
+Additionally, the player’s initial confusion about the column blocking the right of the starting area is resolved after completing section 1 and discovering the ‘attack to break column’ mechanic, providing them with an “I know how to get through now!” moment as a reward for completing section 1 and an incentive to continue.
+
 
 pic: pushbox1 pushbox2
 swtich1 switch2 switch3
---
 
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
-- The level should feature appropriate dramatic pacing. Each section should be divided into encounters that require the player to use their skills to complete a task. The player should have a clear idea of their goals, even if the solution is challenging to solve.
+The overall intensity curve holds section 1 as the hook, as the player learns different mechanics and dynamics through interesting encounter design. Section 2 represents the rising action, as there is a specific sequence of actions required to complete the smaller section, and figuring out each encounter contributes towards moments of achievement. Section 3 represents the climax, as it is the most challenging part of the level and has the most complexity.
 
---
-Throughout the level, I made sure the player was able to see their goals. The ultimate goal is visible from the start and is the central point of the level. Keys and health pickups are placed visibly, but just out of reach, to indicate where the player needs to go. Section 2 in particular presents the goal (box to be dropped) *before* any possible solutions.
+Every encounter in the level is different, introducing some novel mechanic or dynamic, avoiding boredom by repetition. Higher intensity encounters in sections 1 and 2 are connected to “safe” areas, allowing for dips and bumps in the experiential intensity curve.
 
-Section 1 is structured so there are "safe" moments between each encounter, creating small bumps in the intensity curve. Each encounter is different, avoiding boredom by repetition.
+The transition between sections 2 and 3 is a shift from tight underground space to a more open floating space to emphasise the shift between sections. This connecting space is intentionally long and simple to create resonance, allowing the player to feel the satisfaction of completing the last puzzle, and facilitating a moment of respite before the upcoming tension.
 
-The spitters in section 2 and the physical skill required to overcome them create a spike in intensity. Dramatic tension is created by the thinking required to strategise and solve the section.
+The forked path and spike drop at the entrance of section 3 were designed so the player has incomplete knowledge of what lies ahead (cannot see what is below the drop or above the high path), stimulating their curiosity to explore and discover despite the possibility of danger. This, along with some randomness of the spitter attacks and the moving platform timings, creates uncertainty and tension. Tension is also created through the scarcity of health pickups and checkpoints (rewards) compared to the many threats (penalties), forcing the player to consider the risks of their actions.
 
-The elevator connection between sections 2 and 3 is intentionally long and in a bigger space, to allow the player to feel the satisfaction/achievement of solving the previous puzzle, and a moment of respite before the tension of section 3.
-
-Section 3 incorporates enemies (active threats), more acid/spikes (increased challenge) and fewer health pickups (higher stakes) to increase tension. The checkpoint is closed off from danger, creating a "saferoom" to relax and think.
---
+Pic: paths (can’t see below or above)
 
 
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
-- The level should challenge the player’s reflexes and problem-solving skills. Challenges should be presented via a dramatic arc of modulated difficulty, with moments of tension and relief, and moments of power. The first section of the level should be fairly easy. The later sections should be more demanding, but still achievable by a moderately skilled platform player.
+The main challenges of my level are around discovering the different applications of boxes and switches, particularly in section 2 and the final part of section 3. Each encounter in the level contributes towards moments of tension and relief as the player solves puzzles or overcomes enemies/obstacles, with complexity of encounters increasing through sections, thus increasing difficulty.
 
---
-The third section of my level presents an increase in both skill-based challenge and complexity.
+Section 3 presents an increase in both skill-based challenge and complexity. Complexity is achieved as a combination of the simple mechanics and verbs used in previous sections is required to solve the final box push/doors puzzle. Physical skill is engaged particularly in the S-shaped path (spikes were placed to drive fine-tuning of jumps) and acid/moving platform parkour (challenging reflexes and precision platforming). Intellectual problem-solving and analytical skills are required to understand and solve the doors puzzle.
 
-The third section features a puzzle which combines the box 'push' and 'open' bridge verbs in a new way, with several "stages" to the solution, increasing the complexity of the section.
-
-Physical skill - platforming, timing
-intellectual skill - problem solving, complexity of puzzles
-
-difficulty curve - 
-
-flow - connectivity of sections, scale of level/having encounters visible and always having something to look for next
---
-
+The level aims to maintain the player’s state of flow by balancing intense threat encounters with minimally dangerous spaces (e.g. the tunnels in section 2) to modulate the level of difficulty. The player is able to see their objectives clearly (often a switch or a door) due to the close proximity or order of encounters and receives immediate feedback to actions (e.g. doors opening/closing loudly). Minimal red herrings/distractions also contribute towards maintaining flow.
 
 
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
-- The level should be non-linear, inviting and facilitating the player to explore in different directions without them getting lost or becoming uncertain as to what to do next. Your aesthetic and layout choices should aid in this goal, creating a distinct and memorable feeling of space/place. The player should never have to repeat large areas of the level that don’t present new challenges.
+Although section 1 is mostly linear, sections 2 and 3 increase the number of ways to navigate the space, with different paths having different purposes. Encounters sit at different elevations and aesthetic settings, varying between being cramped (section 2's shooting encounter) to plein-air (section 3), fitting with the narrative theme of moving from underground to the skies.
 
---
+Sections 1 and 3 return the player to the start, establishing the final key door as a central landmark and allowing the player to mentally connect each section together as they drop down to the start after collecting all three keys. Keys are placed throughout the level in visible locations to mark the final objective for each section.
 
-Although section 1 is mostly linear, sections 2 and 3 increase the number of ways to navigate the space. Encounters sit at different elevations and sizes, varying between being cramped (section 2's shooting encounter) to plein-air (section 3), fitting with the narrative theme of moving from undergound to the skies.
+Section 3 in particular was designed to be memorable, as some backtracking is required to solve the puzzle. Areas are connected in multiple ways and passages are opened/blocked depending on the player’s interaction with the switch, inviting player curiosity and exploration of strategies (e.g., the switch can be shot from both the left and right). The multi-staged puzzle aims to challenge any existing 'hit one switch to succeed' mentality. The singular checkpoint placed in the small, distinct "safe room" acts as a landmark and ensures the player doesn't get disoriented when respawning.
 
-Sections 1 and 3 return the player to the start, emphasising the final door as a central landmark.
-
-Section 3 in particular was designed to be memorable, as some backtracking is required to solve the puzzle. Areas are connected in multiple ways, inviting player curiosity and exploration of strategies (e.g., the switch can be shot from both the left and right). The multi-staged puzzle aims to challenge the player's 'hit one switch and win' mentality. The singular checkpoint placed in the distinct "saferoom" ensures the player doesn't get lost when respawning.
-
---
-
+Pics: switch left/right, section3
 
 
 ## 2. Core Gameplay (~400 words)
