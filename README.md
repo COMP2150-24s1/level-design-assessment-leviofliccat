@@ -6,11 +6,6 @@
 This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
 
-discovery - scaffolding new concepts
-challenge - presenting goals and obstacles
-drama - controlling the pacing
-exploration - inviting and rewarding curiosity
-fantasy - building a world, unfolding a narrative
 
 
 
@@ -27,18 +22,27 @@ Example:
 ## 1. Player Experience (~700 words)
 Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
+
+
+discovery - scaffolding new concepts
+challenge - presenting goals and obstacles
+drama - controlling the pacing
+exploration - inviting and rewarding curiosity
+
+
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
 - The level should facilitate the player’s discovery of mechanics and dynamics without written instruction. Mechanics should be introduced safely and individually in section 1, before the player must use them under pressure and in combination (to learn new dynamics) in later sections. You can assume the player already knows the controls.
 
 --
-My level design intends to encourage the player to learn and discover through play the key verbs I wanted to highlight - 'push' boxes and 'open' doors/bridges. These two verbs are used in different ways throughout the level, each encounter developing on previous interpretations of the verb.
+My level design scaffolds discovery of the key concepts and verbs I wanted to highlight - 'push' boxes and 'open' doors/bridges. These two verbs are used in different ways throughout the level, each encounter developing on previous interpretations of the verb.
 
-The box push to open bridges is introduced in section 1. The encounter was designed such that the player is "forced" to push the box forward to progress (rather than jump over), which shows them the activate button -> opens bridge mechanic. They then also jump on the box to reach the next area.
-Section 2 encourages the player to combine movement verbs and 'push' to get the box from one encounter to the next (which requires the box to jump on). The gun encounter allows the discovery that shooting a switch can 'open' bridges.
-Section 3 is the cumulation of sequential switch activations to 'open' and close multiple bridges as well as multi-staged box 'push'.
+The box push to open bridges is introduced in section 1. The encounter was designed such that the player must push the box forward to progress (rather than jump over), which shows them the activate button -> open bridge mechanic. They then also jump on the box to reach the next area.
+Section 2 encourages the player to combine movement verbs and 'push' to get the box from one area to the next (which requires the box to jump on). The gun encounter allows the discovery that shooting a switch can activate bridges.
+Section 3 is the cumulation of sequential switch activations to 'open' and 'close' multiple doors as well as multi-staged box 'push'. Originally the plan was to use toggle bridges instead of toggle doors, as I believe the toggle state doors conflict with the idea that "doors will close if the button isn't held down", but mechanics limited this.
 
-
+pic: pushbox1 pushbox2
+swtich1 switch2 switch3
 --
 
 
