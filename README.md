@@ -1,13 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
 ### Name: Felicity Nop
 ### Student number: 47681837
 
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
+Word count: 1531
 
 ## 1. Player Experience
 
@@ -120,25 +115,28 @@ The player must learn to pass through these platforms in order to progress, emph
 
 Iterative design greatly improved my level from its original concept to achieve my main design goals - I wanted the level to be cohesive without feeling repetitive or linear, to have clear objectives and encourage exploration, and to continuously push the player to test and apply their knowledge.
 
-Greyboxing identified some issues with the flow and linearity of my level. To make the sections feel more cohesive as a whole, the drop that loops section 1 back to the start was modified to be more recognisable and to provide a goal from the start of the level (the passthrough platform and key are visible upon commencing the level, but out of reach). After greyboxing, I also realised the section 2 box drop could be completed before seeing the box itself, so encounters were rearranged to encourage the player to examine the whole area before solving the puzzle (iterated again after playtesting for similar reasons). 
+Greyboxing identified some issues with the initial flow and linearity of my level. To make the sections feel more cohesive as a whole, the drop that loops section 1 back to the start was modified to be more recognisable and to provide a goal from the start of the level (the passthrough platform and key are visible upon commencing the level, but out of reach). 
+
+After greyboxing, I also realised the section 2 box drop could be completed before seeing the box itself, so encounters were rearranged to encourage the player to examine the whole area before solving the puzzle (iterated on again after playtesting for similar reasons). 
 
 ![Minor changes to section 2](DocImages/section2ver1-2.jpg)
+(The shooting encounter was later mirrored to better encourage exploration first.)
 
-Early playtesting by my brother after the first iteration of section 2 identified a softlock from pushing the box into the acid (as the box is needed to jump on to get the key). I wanted to keep the 'push' verb, so I considered a path where the box could go but the player couldn't. Modifications to level map sketches and storyboards resulted in the labyrinth-like/tunnel design - it is clearer that the box should be pushed to the right. 
+Early playtesting by my brother after the first iteration of section 2 identified a softlock via pushing the box into the acid. I wanted to keep the idea of using the box to get the key, so I considered a path where the box could go but the player couldn't. Many iterative adjustments to geometry and storyboards resulted in the labyrinth-like/tunnel design - it is clearer now that the box should be pushed to the right. 
 
 ![Major changes to section 2](DocImages/section2ver4-5.jpg)
 
 ![Section 2 storyboard](DocImages/iteration-sb-1.jpg)![Section 2 storyboard animation](DocImages/gif1.GIF)
 
 
-Self playtesting revealed section 3 felt too boring, linear, and incohesive with previous sections because it didn't challenge the player to apply many of the key mechanics learned in previous sections. Iterative changes were made to the geometry of platforming sections to better challenge physical skills and avoid linearity. With storyboarding, the final encounter was changed into a more logically-interesting puzzle, drawing on the box ‘push’ and ‘open’ bridge/door verbs to create an interesting puzzle that requires strategy, understanding of learned mechanics, and memory of the area.
+Self playtesting revealed section 3 felt too boring, linear, and incohesive with previous sections because it didn't challenge the player to apply many of the key mechanics. Iterative changes were made to the geometry of platforming sections to better challenge physical skills and avoid linearity. With storyboarding, the final encounter was changed to a more logically-complex one, drawing on the box ‘push’ and ‘open’ bridge/door verbs to create an interesting puzzle that requires strategy, understanding of learned mechanics, and memory of the area.
 
 ![New level map for section 3](DocImages/map3improved.JPG)
 
 ![Section 3 storyboard](DocImages/iteration-sb-2.jpg)![Section 3 storyboard animation](DocImages/gif2.GIF)
 
 
-The flow between areas around the puzzle in section 3 could be further improved, as some jumps along with the timing of the moving platforms are somewhat awkward. Potential iterative changes include adjusting platform positions and move distances, and modifying the layout/sizes of areas to improve visibility of the box drop from the right.
+The flow between areas around the puzzle in section 3 could be further improved, as some jumps along with the timing of the moving platforms are awkward. Potential iterations could be adjusting platform positions and move distances, and modifying the layout/sizes of areas to improve visibility of the box drop from the right.
 
 
 ## Generative AI Use Acknowledgement
